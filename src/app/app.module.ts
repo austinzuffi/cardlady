@@ -8,8 +8,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NumbersComponent } from './numbers/numbers.component';
 import { SymbolsComponent } from './symbols/symbols.component';
-import { TypesComponent } from './types/types.component';
 import { AboutComponent } from './about/about.component';
+import { ReadingsComponent } from './readings/readings.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +17,8 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     NumbersComponent,
     SymbolsComponent,
-    TypesComponent,
-    AboutComponent
+    AboutComponent,
+    ReadingsComponent
   ],
   imports: [
     BrowserModule,
