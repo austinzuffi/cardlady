@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cardlady';
+	active=1;
+	isMenuCollapsed=true;
 }

@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Cinzel&display=swap');
+
+html, body { height: 100%; }
+body { 
+	margin: 0; 
+	font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+nav {
+	font-family: "Cinzel", serif;
+}
+
+h3 {
+	font-family: "Cinzel", serif;
+	text-align: center;
+}
+img {
+	max-height: 80vh;
+	max-width: 90vw;
+}
+
