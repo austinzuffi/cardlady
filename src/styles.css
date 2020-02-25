@@ -4,7 +4,6 @@
 html, body { height: 100%; }
 body { 
 	margin: 0; 
-	font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 nav {
 	font-family: "Cinzel", serif;
@@ -18,4 +17,3 @@ img {
 	max-height: 80vh;
 	max-width: 90vw;
 }
-
