@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-	logotext="♥♣♦♠ Katie&nbsp;the&nbsp;Card&nbsp;Lady ♠♦♣♥";
   constructor() { }
 
   ngOnInit(): void {
