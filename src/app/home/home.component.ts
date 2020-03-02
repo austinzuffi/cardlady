@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { formatDate } from '@angular/common';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+	year = '';
+	month = '';
+	day = '';
+
+	constructor() { }
 
   ngOnInit(): void {
   }
+
+	onBirthday(value: string) {
+		//do the stuff 
+		this.year = formatDate(value, "yyyy", "en-US");
+		this.month = formatDate(value, "LL", "en-US");
+		this.day = formatDate(value, "dd", "en-US");
+	}
 
 }

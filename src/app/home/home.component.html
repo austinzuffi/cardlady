@@ -13,9 +13,8 @@
 			13 numbers &amp; 13 moons
 		</p>
 	</div>
-	<p class="lead text-center">What are YOUR cards? Email me to find out! ♥</p>
+	<p class="lead text-center">What's your birthday? ♥</p>
+	<input #birthday type="date" class="form-control" value="1990-01-01">
+	<button type="submit" (click)="onBirthday(birthday.value)" class="btn btn-primary">About</button>
 
-	<a routerLink="/about" >
-		<button type="button" class="btn btn-primary">About</button>
-	</a>
 </div>
