@@ -13,8 +13,25 @@
 			13 numbers &amp; 13 moons
 		</p>
 	</div>
-	<p class="lead text-center">What's your birthday? ♥</p>
-	<input #birthday type="date" class="form-control" value="1990-01-01">
-	<button type="submit" (click)="onBirthday(birthday.value)" class="btn btn-primary">About</button>
-
 </div>
+
+<div class="row justify-content-center">
+	<div class="col-sm-5 text-center">
+		<form>
+			<div class="form-group">
+				<label for="birthday" class="lead">What's your birthday? ♥</label>
+				<input #birthday type="date" class="form-control" id="birthday" value="1990-01-01">
+			</div>
+			<button type="submit" (click)="onBirthday(birthday.value)" class="btn btn-primary">Get card</button>
+		</form>
+	</div>
+</div>
+<br>
+<div class="row justify-content-center">
+	<div [ngbCollapse]="isCollapsed">
+		<ngb-alert>
+			You are the {{yourSolarValue}}!
+		</ngb-alert>
+	</div>
+</div>
+
